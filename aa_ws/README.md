@@ -6,7 +6,7 @@
 
 In the terminal, navigate to directory, build packages and set environment variables: 
 ```
-cd ~/SET-BETA-SPRING2023/aa_ws/
+cd [your path to directory)
 colcon build
 source install/setup.bash
 ```
@@ -25,7 +25,7 @@ ros2 launch warehouse_robot_controller_pkg controller_estimator.launch.py
 
 Install the Turtlebot3 package:
 ```
-sudo apt install ros-foxy-turtlebot3*
+sudo apt install ros-humble-turtlebot3*
 ```
 Once the turtlebot3 package is installed, we can launch the robot in the terminal:
 ```
